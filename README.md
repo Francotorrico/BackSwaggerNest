@@ -3,19 +3,41 @@ Este repo es una practica personal donde se integraron diferentes tecnologías p
 sirve para practicar la integración de diferentes tecnologías y aprender a usarlas en un proyecto real. Diferentes Roles y permisos para un usuario ADMIN y MANAGER. Admin tenia acceso a todas las rutas y el MANAGER tenia acceso a las rutas que pertenecían a su organización. y Manager tenia acceso a los que tenian decorador de manager.
 todo capturado de acuerdo a su atenticacion y login 
 
-
+# Pantallaso general
 ![img](./img/pantallazoGeneral.PNG)
+### En mi base de datos tengo
+![img]( ./img/midb.PNG)
 
-# paso 1
-![img](./img/logeo%20exitoso.PNG)
+# Paso 1
+![img]( ./img/login1.PNG)
+![img](./img/logeoexitoso.PNG)
 
-![img](login.PNG)
-![img](midb.PNG)
 
-# paso 2
-![img](siendoManager.PNG)
-![img](siendoManagerPeroNoAdmin.PNG)
-![img]()
+# Paso siendo Manager
+#### en esta imagen tengo el rol de tipo manager en la organizacion
+
+![img](./img/siendoTipoManager.PNG)
+#### en esta imagen siendo tipo member no puedo acceder a la ruta
+![img](./img/siendoTipoMember.PNG)
+
+#### en esta imagen siendo tipo Manager pero no Admin, puedo acceder a la ruta
+![img](./img/siendoManager.PNG)
+
+#### en esta imagen siendo tipo Manager pero no Admin, no puedo acceder a la ruta delete por ejemplo
+![img](./img/siendoManagerPeroNoAdmin.PNG)
+
+# Pasos siendo Admin
+#### En este caso le cambie el rol de user a tipo ADMIN como se ve en la DB
+![img](./img/siendoAdmin.PNG)
+
+#### Aca puedo ahora si usar delete para borrar usuarios siendo admin
+![img](./img/siendoAdminBorroUser.PNG)
+
+
+#### En este caso puedo acceder a todas las rutas como el de la ruta de manager,mas la respuesta con el usuario borrado que ya no se vera.
+![img](./img/siendoAdminAccesoATodo.PNG)
+
+
 
 ## Tecnologías usadas
 
